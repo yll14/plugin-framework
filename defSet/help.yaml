@@ -1,0 +1,9 @@
+- group: 组名称
+  list:
+    - icon: Setting
+      title: '命令名称'
+      desc: '命令描述'
+    - icon: Setting
+      title: 'icon为resources\img\icon下的png文件名(不需要带后缀名)'
+      desc: '命令描述'
+

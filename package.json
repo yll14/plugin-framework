@@ -1,0 +1,15 @@
+{
+    "name": "plugin-framework",
+    "version": "V1.0",
+    "description": "一个低级的插件框架",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+      "fix": "npx prettier --write **/*.js && npx prettier --write *.js"
+    },
+    "dependencies": {
+    },
+    "author": "洛洛",
+    "license": "MIT"
+  }
+  
