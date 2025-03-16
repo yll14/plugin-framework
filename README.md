@@ -1,6 +1,6 @@
 <div align="center">
 
-# [插件框架] V1.0(plugin-framework)
+# 插件框架 V1.0(plugin-framework)
  ## 插件功能
  </div>
 
