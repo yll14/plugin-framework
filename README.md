@@ -1,9 +1,10 @@
 <div align="center">
 
 # 插件框架 V1.0(plugin-framework)
- ## 插件功能
- </div>
 
+## 插件功能
+
+ </div>
 
  <div align="center">
  
@@ -34,27 +35,27 @@ git clone --depth=1 https://ghproxy.net/https://github.com/yll14/plugin-framewor
 pnpm install --filter=plugin-framework
 ```
 
- ## 其他  
-- QQ：```2443958507```[(高一小白)](https://qm.qq.com/cgi-bin/qm/qr?k=Vzr6Z6yISyfTNKic29xQEattdPxHldPW)
+## 其他
+
+- QQ：`2443958507`[(高一小白)](https://qm.qq.com/cgi-bin/qm/qr?k=Vzr6Z6yISyfTNKic29xQEattdPxHldPW)
 
 <br/>
 
-- ***邮箱联系方式***
+- **_邮箱联系方式_**
 
-- ``` ll@yll14.cn ```
+- `ll@yll14.cn`
 
-- ``` 2443958507@qq.com```
+- ` 2443958507@qq.com`
 
 如果可以的话 给本项目个star 来支持本项目 您的支持就是给我的最大的鼓励 谢谢
 
-
 ## 免责声明
 
-1) 功能仅限内部交流与小范围使用，请勿将plugin-framework用于以盈利为目的的场景
+1. 功能仅限内部交流与小范围使用，请勿将plugin-framework用于以盈利为目的的场景
 
-2) 本插件仅供交流学习使用，如有侵权请联系，会立即修改或删除
+2. 本插件仅供交流学习使用，如有侵权请联系，会立即修改或删除
 
-3) 使用本插件造成的一切损失，以及不良影响，由使用者承担
+3. 使用本插件造成的一切损失，以及不良影响，由使用者承担
 
 <div align="center">
 

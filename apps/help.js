@@ -18,7 +18,7 @@ export class xingluohelp extends plugin {
         {
           reg: /^[#/!]?(xl|星落|xingluo)(插件)?(帮助|菜单|help|功能|说明|指令|使用说明|命令)$/i,
           fnc: "help",
-        }
+        },
       ],
     });
   }

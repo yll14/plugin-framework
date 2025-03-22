@@ -24,30 +24,30 @@ export function supportGuoba() {
     },
     configInfo: {
       schemas: [
-          {
-            field: 'component.input',
-            label: '输入框',
-            helpMessage: '',
-            bottomHelpMessage: '',
-            component: 'Input',
-            componentProps: {},
-          },
-          {
-            field: 'component.textarea',
-            label: '多行输入框',
-            helpMessage: '',
-            bottomHelpMessage: '',
-            component: 'InputTextArea',
-            componentProps: {},
-          },
-          {
-            field: 'component.switch',
-            label: '开关',
-            helpMessage: '',
-            bottomHelpMessage: '',
-            component: 'Switch',
-            componentProps: {},
-          },
+        {
+          field: "component.input",
+          label: "输入框",
+          helpMessage: "",
+          bottomHelpMessage: "",
+          component: "Input",
+          componentProps: {},
+        },
+        {
+          field: "component.textarea",
+          label: "多行输入框",
+          helpMessage: "",
+          bottomHelpMessage: "",
+          component: "InputTextArea",
+          componentProps: {},
+        },
+        {
+          field: "component.switch",
+          label: "开关",
+          helpMessage: "",
+          bottomHelpMessage: "",
+          component: "Switch",
+          componentProps: {},
+        },
       ],
       getConfigData() {
         return setting.merge();

@@ -3,7 +3,6 @@ import fs from "node:fs";
 import { _PATH, PluginName_en, PluginPath } from "../function/function.js";
 import path from "node:path";
 
-
 export default new (class Init {
   async init() {
     try {
@@ -21,7 +20,7 @@ export default new (class Init {
     if (!fs.existsSync(configFolder)) {
       fs.mkdirSync(configFolder);
     }
-     /*
+    /*
     const configFilePath = `${configFolder}/config.yaml`;
     const defconfigFilePath = `${defSetFolder}/config.yaml`;
     if (!fs.existsSync(configFilePath)) {
@@ -29,14 +28,18 @@ export default new (class Init {
     } else {
       const defconfig = yaml.parse(fs.readFileSync(defconfigFilePath, "utf8"));
       let config = yaml.parse(fs.readFileSync(configFilePath, "utf8"));
+      let updated = false;
       for (const key in defconfig) {
         if (!config.hasOwnProperty(key)) {
           config[key] = defconfig[key];
+          updated = true;
         }
       }
       const updatedConfigYAML = yaml.stringify(config);
       fs.writeFileSync(configFilePath, updatedConfigYAML, "utf8");
-      logger.info(logger.green(`[${PluginName_en}]${path.basename(configFilePath)}配置文件缺少键值，已从/defSet文件夹中更新`));
+      if (updated) {
+        logger.info(logger.green(`[${PluginName_en}]${path.basename(configFilePath)}配置文件缺少键值，已从/defSet文件夹中更新`));
+      }
     }
     */
     /*
